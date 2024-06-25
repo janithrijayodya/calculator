@@ -1,0 +1,59 @@
+
+body{
+  
+  
+display:;
+justify-content: center;
+align-items: center;
+
+}
+
+h1{
+    align-items: center;
+    color: rgb(197, 47, 47);
+    font-size: 5vw;
+   
+}
+
+.tbl {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 95vh; 
+    background-image: url(/img/cal5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 45vw;
+}
+
+
+ /* .cal{
+   background-color: rgb(167, 199, 37);
+    align-items: center;
+ } */
+
+ #multi{
+
+    color: rgb(197, 47, 47);
+    font-size: xx-large;
+    font-weight: 1000;
+ }
+ #DIV{
+
+    color: rgb(197, 47, 47);
+    font-size: xx-large;
+    font-weight: 1000;
+ }
+ #ADD{
+
+    color: rgb(197, 47, 47);
+    font-size: xx-large;
+    font-weight: 1000;
+ }
+ #SUB{
+
+    color: rgb(197, 47, 47);
+    font-size: xx-large;
+    font-weight: 1000;
+ }

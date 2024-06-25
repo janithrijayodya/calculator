@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head >
+<body >
+<div class="tbl">
+    <table cellpadding ="20"  >
+       <div class="cal">
+        <tr>
+        <th colspan="2">
+            <h1 id="cal">Calculator</h1>
+        </th>
+        </tr>
+    </div>
+        <tr>
+            <td> 
+                <input type="text" placeholder="Number 01" id="number01">   
+            </td>
+
+            <td>
+                <input type="text" placeholder="Number 02" id="number02">
+            </td>
+
+         </tr>
+
+         <tr>
+            <td>
+
+    <input type="button" value="Multi" id="mul" onclick="calc()">
+
+    <label  id="multi"></label>
+
+    <br><br>
+
+    <input type="button" value="Div" id="div" onclick="calcDiv()">
+
+    <label  id="DIV"></label>
+
+    <br><br>
+
+    <input type="button" value="Add" id="add" onclick="calcAdd()">
+
+    <label  id="ADD"></label>
+
+    <br><br>
+    
+    <input type="button" value="Sub" id="sub" onclick="calcSub()">
+
+    <label  id="SUB"></label>
+    </td>
+</tr>
+
+</table>
+</div>
+   
+    <script src="app.js"></script>
+</body>
+</html>
